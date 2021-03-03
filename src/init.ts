@@ -126,11 +126,6 @@ const init = async (context: vscode.ExtensionContext) => {
 				})
 			}
 		)
-	} else {
-		vscode.window.setStatusBarMessage(
-			'VsCode Action Buttons: You have no run commands.',
-			4000
-		)
 	}
 }
 
